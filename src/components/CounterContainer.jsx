@@ -23,8 +23,8 @@ const counterComponent = ({
 }) => (
   <div>
     <p>{counter}</p>
-    <button onClick={onAddOne}>Add</button>
-    <button onClick={onRemoveOne}>Remove</button>
+    <button onClick={onAddOne}>Add 1</button>
+    <button onClick={onRemoveOne}>Remove 1</button>
     <button onClick={onAddTen}>Add 10</button>
     <button onClick={onRemoveTen}>Remove 10</button>
     <button onClick={onReset}>Reset</button>

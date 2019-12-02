@@ -5,7 +5,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { createStore } from "redux";
 import { Provider } from "react-redux";
-import CounterReducer from "./CounterReducer.js";
+import CounterReducer from "./components/CounterReducer.js";
 
 const store = createStore(
   CounterReducer,
